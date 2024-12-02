@@ -4,19 +4,17 @@ def greet_programmer():
     print("Hello, programmer!")
 
 def greet(name):
-    print(f"Hello {name}")
-greet("Stacy")
+    print(f"Hello, {name}!")
 
 def greet_with_default(name="programmer"):
-    print( f"Hello {name}")
-greet_with_default()
+    print( f"Hello, {name}!")
 
 def add(num1, num2):
-    print(f"{num1} + {num2}")
-add(2, 4)
+    return num1 + num2
+
+
 
 def halve(number):
-    print (f"{number})")
-halve(10)
+    return number / 2
 
 
